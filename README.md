@@ -10,17 +10,17 @@ DIAGRAMA:
 
 ESP32                  MPU6050(acelerometro)
 3.3V    ----------->   VCC
-O vcc é por onde a energia entra
+(O vcc é por onde a energia entra.)
 
 GND     ----------->   GND
-O gnd é onde a energia sai
+(O gnd é onde a energia sai.)
 
 SCL     ----------->   22
-O scl é quem define a velocidade de leitura do sda,
-e marca o tempo que os bits devem ser lidos
+(O scl é quem define a velocidade de leitura do sda,
+e marca o tempo que os bits devem ser lidos.)
 
 SDA     ----------->   21
-o sda é por onde as informações passam entre o esp32 e o acelerometro
+(o sda é por onde as informações passam entre o esp32 e o acelerometro.)
 
 RECURSOS NECESSARIOS: 
 
